@@ -1,7 +1,8 @@
 .. _basic-recon-section:
-===============================
+
+==============================
 Basic PET image reconstruction
-===============================
+==============================
 
 For basic Siemens Biograph mMR image reconstruction, *NiftyPET* requires:
 

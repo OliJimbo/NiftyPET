@@ -3,6 +3,6 @@
 References
 ===========
 
-.. bibliography:: refs/niftypet_docs.bib
+.. bibliography::
   :cited:
   :style: unsrt

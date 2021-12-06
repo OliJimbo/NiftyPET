@@ -21,6 +21,7 @@ NiftyPET: High-throughput image reconstruction and analysis
 
    intro
    install
+   science
 
 
 .. toctree::
@@ -41,6 +42,7 @@ NiftyPET: High-throughput image reconstruction and analysis
    :caption: Open-source Data
 
    data
+   acr_data
 
 
 .. toctree::
@@ -55,3 +57,9 @@ NiftyPET: High-throughput image reconstruction and analysis
    :caption: Acknowledgements
 
    ackn
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Citing NiftyPET
+
+   citing

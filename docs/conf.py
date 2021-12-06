@@ -40,6 +40,8 @@ extensions = [
     #'sphinxarg.ext'
 ]
 
+bibtex_bibfiles = ['refs/niftypet_docs.bib']
+
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
 
@@ -47,7 +49,7 @@ templates_path = ['_templates']
 # You can specify multiple suffix as a list of string:
 #
 # source_suffix = ['.rst', '.md']
-source_suffix = ['.rst', '.ipynb']
+#source_suffix = ['.rst', '.ipynb']
 
 # The master toctree document.
 master_doc = 'index'

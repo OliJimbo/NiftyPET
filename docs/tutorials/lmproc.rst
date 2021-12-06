@@ -1,8 +1,8 @@
-==========================
+=========================================
 List-mode processing and motion detection
-==========================
+=========================================
 
-The list-mode (LM) data is usually of large size in the order of GB.  In NiftyPET, the LM data is hidden within image reconstruction function (see :ref:`_basic-recon-section`) and processed automatically.  However, the LM data can be processed separately to obtain histogrammed data (sinograms) as well as other statistics of the PET acquisition, including the head curves and motion detection.  
+The list-mode (LM) data is usually of large size in the order of GB.  In NiftyPET, the LM data is hidden within image reconstruction function (see :ref:`basic-recon-section`) and processed automatically.  However, the LM data can be processed separately to obtain histogrammed data (sinograms) as well as other statistics of the PET acquisition, including the head curves and motion detection.  
 
 After the following initialisation and input data specification (an example of amyloid brain acquisition is provided at :ref:`data-section` :cite:`Markiewicz2018c`): 
 

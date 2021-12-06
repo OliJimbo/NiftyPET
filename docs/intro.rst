@@ -57,11 +57,11 @@ In stage **B**  the normalisation component data (relatively small file) is used
 
 Great emphasis was put on the quantitative image reconstruction and analysis in stages **D-H** (for more details see :cite:`Markiewicz2018b`):
 
-* forward and back projectors used for image reconstruction (stage **D**); the attenuation factors are generated with the forward projector.
-* fully 3D estimation of scatter events (stage **E**), with high resolution ray tracing in image and projection space; the  estimation is based on voxel-driven scatter model (VSM) and is coupled with image reconstruction, i.e., the scatter is updated every time a better image estimation of the radiotracer distribution is available.
-* voxel-wise partial volume correction using MRI brain parcellations (stage **F**), based on the iterative Yang method and given point spread function (PSF) of the whole imaging system (including the hardware and the reconstruction algorithm);
-* kinetic analysis using dynamic multi-frame PET data (stage **G**);
-* voxel-wise uncertainty estimation based on efficient generation of bootstrap LM data replicates (stage **H**). 
+  * forward and back projectors used for image reconstruction (stage **D**); the attenuation factors are generated with the forward projector.
+  * fully 3D estimation of scatter events (stage **E**), with high resolution ray tracing in image and projection space; the  estimation is based on voxel-driven scatter model (VSM) and is coupled with image reconstruction, i.e., the scatter is updated every time a better image estimation of the radiotracer distribution is available.
+  * voxel-wise partial volume correction using MRI brain parcellations (stage **F**), based on the iterative Yang method and given point spread function (PSF) of the whole imaging system (including the hardware and the reconstruction algorithm).
+  * kinetic analysis using dynamic multi-frame PET data (stage **G**)
+  * voxel-wise uncertainty estimation based on efficient generation of bootstrap LM data replicates (stage **H**). 
 
 
 

@@ -41,6 +41,7 @@ extensions = [
 ]
 
 bibtex_bibfiles = ['refs/niftypet_docs.bib']
+bibtex_default_style = 'unsrt'
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -48,7 +49,7 @@ templates_path = ['_templates']
 # The suffix(es) of source filenames.
 # You can specify multiple suffix as a list of string:
 #
-# source_suffix = ['.rst', '.md']
+source_suffix = '.rst'
 #source_suffix = ['.rst', '.ipynb']
 
 # The master toctree document.

@@ -47,19 +47,20 @@ NiftyPET: High-throughput image reconstruction and analysis
 
 .. toctree::
    :maxdepth: 2
-   :caption: Bibliography
-
-   zbibref
-
-
-.. toctree::
-   :maxdepth: 2
    :caption: Acknowledgements
 
    ackn
+
 
 .. toctree::
    :maxdepth: 2
    :caption: Citing NiftyPET
 
    citing
+
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Bibliography
+
+   zbibref

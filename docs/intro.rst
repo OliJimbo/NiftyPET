@@ -53,7 +53,7 @@ The input data include the attenuation coefficient maps (|mu|-maps) of the hardw
 
 In stage **B**  the normalisation component data (relatively small file) is used to generate single factors for each sinogram bin, with the use of bucket singles obtained from list-mode (LM) processing in stage **C**.  The LM processing stage **C** generates prompt and delayeds sinograms and fan sums, which are used for estimating reduced-variance randoms for each sinogram bin.
 
-Great emphasis was put on the quantitative image reconstruction and analysis in stages **D-H** (for more details see :cite:`Markiewicz2018b`):
+Great emphasis was put on the quantitative image reconstruction and analysis in stages **D-H** (for more details see :cite:`Markiewicz2018`):
 
   * forward and back projectors used for image reconstruction (stage **D**); the attenuation factors are generated with the forward projector.
 

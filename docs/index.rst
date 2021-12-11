@@ -36,13 +36,22 @@ NiftyPET: High-throughput image reconstruction and analysis
    tutorials/dynrecon.rst
    tutorials/corrqnt.rst
 
+
+.. toctree::
+   :maxdepth: 2
+   :caption: ACR Phantom Imaging
+
+   acr_project/intro_acr
+   acr_project/rec_reg
+
+
    
 .. toctree::
    :maxdepth: 2
-   :caption: Open-source Data
+   :caption: Open-Source Data
 
    data
-   acr_data
+   acr_project/acr_data
 
 
 .. toctree::

@@ -1,20 +1,22 @@
 
 .. :::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-*NiftyPET* is a software platform and a Python namespace package encompassing sub-packages for high-throughput PET image reconstruction, manipulation, processing and analysis with high quantitative accuracy and precision.  One of its key applications is **brain imaging in dementia** with the use of amyloid tracers.  See below for the description of the above amyloid PET image reconstructed using *NiftyPET*, superimposed on the MR T1 weighted image [*]_.  
+*NiftyPET* is a software platform and a Python namespace package encompassing sub-packages for high-throughput PET image reconstruction, manipulation, processing and analysis with high quantitative accuracy and precision.  One of its key applications is **brain imaging in dementia** with the use of amyloid tracers.  See below for the description of the above amyloid PET image reconstructed using *NiftyPET*, superimposed on the MR T1 weighted image [*]_.
+
+
+.. note::
+
+   **Latest Research:**
+
+   *Advanced quantitative evaluation of PET systems using the ACR phantom and NiftyPET software*
+
 
 *NiftyPET* includes two packages:
 
   * ``nimpa``:  https://github.com/NiftyPET/NIMPA (neuro-image manipulation, processing and analysis)
   * ``nipet``:  https://github.com/NiftyPET/NIPET (quantitative PET neuroimaging)
 
-The core routines are written in CUDA C and embedded in Python C extensions to enable user-friendly and high-throughput executions on NVIDIA graphics processing units (GPU).  The scientific aspects of this software platform are covered in two open-access publications:
-
-* *NiftyPET: a High-throughput Software Platform for High Quantitative Accuracy and Precision PET Imaging and Analysis* Neuroinformatics (2018) 16:95. https://doi.org/10.1007/s12021-017-9352-y
-
-* *Rapid processing of PET list-mode data for efficient uncertainty estimation and data analysis* Physics in Medicine & Biology (2016). https://doi.org/10.1088/0031-9155/61/13/N322
-
-For more details on scientific output related to *NiftyPET* see section :ref:`science-section`.
+The core routines are written in CUDA C and embedded in Python C extensions to enable user-friendly and high-throughput executions on NVIDIA graphics processing units (GPU).  For the scientific aspects of this software platform see section :ref:`science-section`.
 
 Although, *NiftyPET* is dedicated to high-throughput image reconstruction and analysis of brain images, it can equally well be used for **whole body imaging**.  Strong emphasis is put on the data, which are acquired using positron emission tomography (PET) and magnetic resonance (MR), especially using the hybrid and simultaneous PET/MR scanners.  
 

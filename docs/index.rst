@@ -43,6 +43,7 @@ NiftyPET: High-throughput image reconstruction and analysis
 
    acr_project/intro_acr
    acr_project/rec_reg
+   acr_project/adv_analysis
 
 
    
